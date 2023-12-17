@@ -1,0 +1,553 @@
+
+/*!-------------TIPOGRAFIA----------*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+/*!-------------RESET---------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.boton{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+/*!---------HEADER-----------*/
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: #005e7c;
+}
+
+header h2 {
+    font-family: 'Rubik Dirt', cursive;
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+    height: 80px;
+    margin-top: 20px;
+}
+
+header h2 span {
+    color: white;
+}
+
+header p {
+    color: white;
+    border: white solid 1px;
+    padding: 3px;
+    transition-duration: 1s;
+}
+
+/*!---------MAIN INDEX-----------*/
+main .hero div{
+    background-image: url(../img/foto_herosection.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .hero div h1{
+    font-size: 75px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+main .hero div p {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.214);
+    padding: 30px;
+}
+
+main .contenedor_valores .valores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+main .contenedor_valores .valores div{
+    width: 70%;
+    height: 70%;
+    margin: 30px;  
+    background-position: center;
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 5px solid #040f16;
+}
+
+main .valores div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .valores div p{
+    padding-top: 10px;
+}
+
+main .valores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+main .valores > div{
+    width: 70%;
+    height: 70%;
+    margin: 30px;  
+    background-position: center;
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 5px solid #040f16;
+}
+
+main .valores div div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .valores div div p{
+    padding-top: 10px;
+}
+
+.servicios_hermanos div h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 31px;
+    color: black;
+    text-align: center;
+}
+
+.servicios_hermanos div .tarjetas{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.servicios_hermanos div div .paulettelash{
+    width: 280px;
+    height: 500px;
+    box-shadow: 10px -11px 9px -2px rgba(22,21,21,0.75);
+    -webkit-box-shadow: 10px -11px 9px -2px rgba(22,21,21,0.75);
+    -moz-box-shadow: 10px -11px 9px -2px rgba(22,21,21,0.75);
+    background-color: #040f16;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition-duration: 1s;
+}
+
+.paulettelash img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.servicios_hermanos div div .paulettelash p {
+    margin-bottom: 5px;
+}
+
+main .servicios_hermanos div .tarjetas .paulettelash .cejas {
+    margin-bottom: 25px;
+}
+
+main .servicios_hermanos div .tarjetas .paulettelash a {
+    font-size: 40px;
+    color: white;
+}
+
+.servicios_hermanos div div .greenfort{
+    width: 280px;
+    height: 500px;
+    box-shadow: 10px -11px 9px -2px rgba(22,21,21,0.75);
+    -webkit-box-shadow: 10px -11px 9px -2px rgba(22,21,21,0.75);
+    -moz-box-shadow: 10px -11px 9px -2px rgba(22,21,21,0.75);
+    background-color: #040f16;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tarjetas h3{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.greenfort img{
+    width: 100%;
+    height: 250px;
+}
+
+main .servicios_hermanos div .tarjetas .greenfort p {
+    margin: 0px;
+}
+
+main .servicios_hermanos div .tarjetas .greenfort a {
+    font-size: 40px;
+    color: white;
+}
+
+
+/*!---------MAIN SERVICIOS------------*/
+header  .input-buscar {
+    padding: 10px;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px solid black;
+}
+
+main .contenedor-servicios{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+    padding: 50px;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+}
+
+main .contenedor-servicios div {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background-color: #005e7c;
+    color: white;
+    width: 100%;
+}
+
+main .contenedor-servicios img {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
+
+main .contenedor-servicios div h3 {
+    margin-bottom: 10px;
+    font-size: 80%;
+}
+
+main .contenedor-servicios div span {
+    display: block;
+    font-size: 80%;
+}
+
+main .contenedor-servicios div .btn-agregar {
+    text-decoration: none;
+    background-color: #e0861f;
+    color: #fff;
+    border: 1px solid #e0861f;
+    border-radius: 5px;
+    margin-top: 2rem;
+    padding: 8px 16px;
+    position: relative;
+    cursor: pointer;
+    bottom: 10px;
+}
+
+main .flex-carrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .carrito{
+    width: 35%;
+}
+
+.carrito .header-carrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    background-color:#092147;
+    color: #fff;
+    font-size: 20px;
+}
+
+.btn-eliminar img {
+    width: 45%;
+    height: 45%;
+}
+
+main .flex-carrito .carrito .carrito-item {
+    position: relative;
+    border-bottom: 1px solid #666;
+    padding: 10px;
+    background-color: #f3f3f3;
+}
+
+.carrito .carrito-item .selector-cantidad{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.carrito .carrito-item .carrito-item-cantidad{
+    border: none;
+    font-size: 18px;
+    display: inline-block;
+    width:25px;
+    text-align: center;
+}
+
+.btn-restar {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-sumar {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.carrito .carrito-item .carrito-item-precio{
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.carrito .carrito-item .btn-eliminar{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: white;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #000;
+    cursor: pointer;
+    display: block;
+    background: transparent;
+    z-index: 20;
+}
+
+.carrito-total{
+    background-color: #f3f3f3;
+    padding: 30px;
+}
+.carrito-total .fila{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.carrito-total .btn-pagar{
+    display: block;
+    width: 100%;
+    height: 45px;
+    border: none;
+    background: #092147;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+    transition: .3s;
+}
+
+.btn-limpiar-carrito {
+    display: block;
+    width: 90%;
+    height: 20px;
+    border: 1px black solid;
+    color: black;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.carrito-total .btn-pagar:hover{
+    scale: 1.05;
+}
+
+div:where(.swal2-container).swal2-center>.swal2-popup {
+    background-color:#092147;
+    color: white;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    background-color: white;
+    color: black;
+}
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    /*!-------PSEUDO CLASES------*/
+    .boton:hover {
+        background-color: white;
+        border: 2px solid black;
+        color: black;
+    }
+
+    .boton:active {
+        color: darkred;
+    }
+
+    header p:hover {
+        background-color: black;
+        border: 2px solid white;
+        color: white;
+    }
+
+    .servicios_hermanos div .tarjetas div i:hover {
+        color:darkred;
+    }
+
+    .servicios_hermanos div .tarjetas div i:active {
+        color: white;
+    }
+
+/*!----------------FOOTER--------------*/
+footer{
+    background-color: #aab9cf;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+footer .piedepagina .iconos div img{
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+
+footer .piedepagina .iconos div p {
+    margin: 0px;
+}
+
+footer .piedepagina .horarios h2 {
+    font-weight: 200;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+}
+
+footer .piedepagina{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "iconos horarios iframe"
+    "h3 h3 h3";
+}
+
+footer .piedepagina .iconos{
+    justify-self: start;
+    align-self: start;
+    margin-top: 50px;
+    grid-area: iconos;
+}
+
+footer .piedepagina .iconos div{
+    display: flex;
+    justify-content: start;
+    align-items:center;
+}
+
+footer .piedepagina .horarios{
+    justify-self: start;
+    align-self: center;
+    grid-area: horarios;
+    margin-top: 20px;
+}
+
+footer .piedepagina iframe{
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    padding: 15px;
+    grid-area: iframe;
+}
+
+footer .piedepagina h3 {
+    background-color: #005e7c;
+    color: white;
+    text-decoration: none;
+    font-family: 'Rubik Dirt', cursive;
+    border: 1px solid black;
+    margin-bottom: 0%;
+    grid-area: h3;
+}
+
+footer h3 span{
+    color: black;
+}
